@@ -71,11 +71,3 @@ n is the length of the text (or of a strain), m the length of the pattern, k the
 | Prefix function and KMP | O(n + m) | O(m) | Alphabet size is a small constant; space is dominated by the `pi` array. |
 | Rabin-Karp (shared words) | O(n + m) expected | O(m) | Few hash collisions occur; hashing map overhead is O(1) expected. Worst-case time is O(n * k). |
 | Tree DP | O(v) | O(v) | Tree operations use adjacency lists; recursion depth is at most v. |
-
-## Before you submit
-
-- The four files in `data` and the screenshot `output/outbreak.png` are in the repository.
-- `java tools/Check.java` shows all examples right.
-- This README is filled in, the program output and the section AI use included.
-- The work is pushed to main (at least one commit per mission) and the repository is public.
-- The link is attached in Moodle.
